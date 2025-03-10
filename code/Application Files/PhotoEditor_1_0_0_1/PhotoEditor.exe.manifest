@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PhotoEditor.exe" version="1.0.0.1" publicKeyToken="56aca76833064fae" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PhotoEditor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PhotoEditor.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PhotoEditor.exe" size="93120">
+      <assemblyIdentity name="PhotoEditor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>BmqsJI/9DEkT22x0xA036XJvFGI1bJUrqS9lx9RiNig=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icon.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5TO8BgUaoGSx8dCsJ2n+8xKg+Sxl4UQqqm4k5uzqVtU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PhotoEditor.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PUANSONN\Puanson" issuerKeyHash="174d5373988fda22e45c9ce45e57f90c804e4238" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>SjfPcRL81iiZ21rGS07UWeMvFnZutiygB+VQ0Lc/vM4=</DigestValue></Reference></SignedInfo><SignatureValue>jbUvzX2PUZJI3JPXvnVBwSGYUGg/VzSmIhCiqaC3PNQw4NY7xP0ua4+czxjpqOYkBRTE6WAW1v63XWTiRMUrFDu8JSRgcEBhYogImUWBuI5W80jNBTGbwDQfduH1zpQMGZwojbTFTS8kqAa49Q3PZEVRREPL8YRfzJFxQB4/tTA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1yg+7QXsdZ469h41UldaYgQMtR220BfL+SDQix2SKOX8ab1/7h4IPq54zyxHFN5vGyQ+Kjy3X30ox+h5GCID7JJtipsOBXUgIQO+cpM7O0NcKp6bR4RX1AdMQHESjSaEWqxytRrtscocjayHw2jCjYccNhoHtgI9MoC7XBt/6kE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cebc3fb7d050e507a02cb66e76162fe359d44e4bc65adb9928d6fc1271cf374a" Description="" Url=""><as:assemblyIdentity name="PhotoEditor.exe" version="1.0.0.1" publicKeyToken="56aca76833064fae" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PUANSONN\Puanson</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tJZq6PayG/ooStIfvqVFI0QrcO4dcb1FPzcFVoENUYY=</DigestValue></Reference></SignedInfo><SignatureValue>IYarKAp0sHBA49jL7h5NWA9ovsHq8d/HM6lt40pfU2SlVj33VYXSswnGMfwHrd/MSnxfjP2rPMJesbGhRkgkBex7G76Js/J015mRSwXxgtNcZR3dT02mhMKyl9O+NQDTSqE5PbhkVhfiQKeonOyDiI72qzA/zbvZw90zcmiQjoc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1yg+7QXsdZ469h41UldaYgQMtR220BfL+SDQix2SKOX8ab1/7h4IPq54zyxHFN5vGyQ+Kjy3X30ox+h5GCID7JJtipsOBXUgIQO+cpM7O0NcKp6bR4RX1AdMQHESjSaEWqxytRrtscocjayHw2jCjYccNhoHtgI9MoC7XBt/6kE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQYHF1pa/WS5ZPZ39idqY9MzANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAUABVAEEATgBTAE8ATgBOAFwAUAB1AGEAbgBzAG8AbjAeFw0yMzEyMjAyMzU2MThaFw0yNDEyMjAwNTU2MThaMCsxKTAnBgNVBAMeIABQAFUAQQBOAFMATwBOAE4AXABQAHUAYQBuAHMAbwBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDXKD7tBex1njr2HjVSV1piBAy1HbbQF8v5INCLHZIo5fxpvX/uHgg+rnjPLEcU3m8bJD4qPLdffSjH6HkYIgPskm2Kmw4FdSAhA75ykzs7Q1wqnptHhFfUB0xAcRKNJoRarHK1Gu2xyhyNrIfDaMKNhxw2Gge2Aj0ygLtcG3/qQQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBALmjKNYdyTVAlRe3meKsAc4VGnEN9qiVhgqS6FGZh1eHfd/MYJl13Mo2ZktQ5vHf0AE8Qsrb1Uv2+nijL7wyHAFYZw6amqqOzbd8VwR7KJIX8Og4+KTwenJdl/qhbspgYQh9nvhAlHdneUbrb7aR6kehNw9oGk35cAoJCxBpO2R5</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

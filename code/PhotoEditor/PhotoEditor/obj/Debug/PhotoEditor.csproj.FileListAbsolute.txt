@@ -1,0 +1,15 @@
+C:\Users\Puanson\Desktop\Курсач 3-1\code\PhotoEditor\PhotoEditor\bin\Debug\PhotoEditor.exe.config
+C:\Users\Puanson\Desktop\Курсач 3-1\code\PhotoEditor\PhotoEditor\bin\Debug\PhotoEditor.exe
+C:\Users\Puanson\Desktop\Курсач 3-1\code\PhotoEditor\PhotoEditor\bin\Debug\PhotoEditor.pdb
+C:\Users\Puanson\Desktop\Курсач 3-1\code\PhotoEditor\PhotoEditor\obj\Debug\PhotoEditor.csproj.AssemblyReference.cache
+C:\Users\Puanson\Desktop\Курсач 3-1\code\PhotoEditor\PhotoEditor\obj\Debug\PhotoEditor.csproj.SuggestedBindingRedirects.cache
+C:\Users\Puanson\Desktop\Курсач 3-1\code\PhotoEditor\PhotoEditor\obj\Debug\PhotoEditor.Form1.resources
+C:\Users\Puanson\Desktop\Курсач 3-1\code\PhotoEditor\PhotoEditor\obj\Debug\PhotoEditor.Properties.Resources.resources
+C:\Users\Puanson\Desktop\Курсач 3-1\code\PhotoEditor\PhotoEditor\obj\Debug\PhotoEditor.csproj.GenerateResource.cache
+C:\Users\Puanson\Desktop\Курсач 3-1\code\PhotoEditor\PhotoEditor\obj\Debug\PhotoEditor.csproj.CoreCompileInputs.cache
+C:\Users\Puanson\Desktop\Курсач 3-1\code\PhotoEditor\PhotoEditor\obj\Debug\PhotoEditor.exe
+C:\Users\Puanson\Desktop\Курсач 3-1\code\PhotoEditor\PhotoEditor\obj\Debug\PhotoEditor.pdb
+C:\Users\Puanson\Desktop\Курсач 3-1\code\PhotoEditor\PhotoEditor\bin\Debug\PhotoEditor.exe.manifest
+C:\Users\Puanson\Desktop\Курсач 3-1\code\PhotoEditor\PhotoEditor\bin\Debug\PhotoEditor.application
+C:\Users\Puanson\Desktop\Курсач 3-1\code\PhotoEditor\PhotoEditor\obj\Debug\PhotoEditor.exe.manifest
+C:\Users\Puanson\Desktop\Курсач 3-1\code\PhotoEditor\PhotoEditor\obj\Debug\PhotoEditor.application
